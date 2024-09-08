@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=deice-width, initial-scale=1'0">
+		<title>South East University</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+	</head>
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="images/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">COURSE</a></li>
+						<li><a href="">BLOG</a></li>
+						<li><a href="">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>About Us</h1>
+		</section>
+		
+		<!-------- about us content ----->
+		
+		<section class="about-us">
+			<div class="row">
+				<div class="about-col">
+				<h1>We are the world's largest University</h1>
+				<p>The University is a fully fledged University and is the successor to the South Eastern University College (SEUCO) which was a Constituent College of the University of Nairobi. The University has undergone tremendous growth since inception in 2008. The current student population stands at around 8,000 students. We pride ourselves in having highly qualified teaching staff consisting of Professors and lecturers most of whom have a Ph. D and vast experience in both teaching and research. This ensures that our students are well equipped with knowledge in their areas of study that makes them stand out from the rest. Our focus is producing all round graduates able to contribute to the development of this country. The University is a premier institution of higher learning in the region offering various certificate, diploma and degree programmes. SEKU envisions becoming a World Class University with quality teaching, creative learning, innovative research and strong community outreach.
+</p>
+				<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+				
+				</div>
+				<div class="about-col">
+				<img src="images/about.jpg">
+				
+				</div>
+			
+			</div>
+		
+		
+		
+		</section>
+		
+		
+		<!---- Footer ------->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>The University was found 20years ago.</p>
+			<div class="icons">
+				<i class="fa-brands fa-facebook"></i>
+				<i class="fa-brands fa-x-twitter"></i>
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-whatsapp"></i>
+				<i class="fa-brands fa-linkedin"></i>
+			</div>
+			<p>Made with <i class="fa-solid fa-heart"></i> Easy Tutorials</P>
+
+		
+		
+		
+		
+		</section>
+		
+		
+		
+		
+		
+	<!--------JavaScript for Toggle Menu------->	
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>	
+		
+	</body>
+</html>
